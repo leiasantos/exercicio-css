@@ -1,0 +1,14 @@
+
+.borda{
+	border: 1px solid red;
+
+}
+
+#inline_bloco{
+	display: inline;
+}
+
+#block_elemento{
+	display: block;
+	margin: 5px;
+}

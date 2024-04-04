@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+	font-family: 'Inter', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	padding: 5px;
+}
+
+/* links não visitados */
+
+a:link{
+	color: #C21010;
+}
+
+/* links visitados */
+
+a:visited{
+	color: #3120E0;
+}
+
+/* links hover, passar o cursor sobre o link */
+
+a:hover{
+	background: #FF1E00;
+	border-radius: 5px;
+	color: #fff;
+}
+
+/* links ativos, quando clicados */
+
+a:active{
+	color: #FA2FB5;
+}
+

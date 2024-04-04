@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+	font-family: 'Inter', sans-serif;
+}
+
+/*Position: relative, static e absolute e fixed */
+body{
+	background: #B9005B;
+}
+
+#container{
+	background: #fff;
+	width: 800px;
+	margin: 10px auto ;
+	padding: 10px;
+	position:relative ;
+}
+
+h1{
+  position: ;
+}
+
+p{
+  width: 300px;
+  text-align: justify;
+}
+
+.relative{
+  border: 1px solid red;
+  position: relative;
+  /* top, right, bottom e left */
+  top: 20px;
+  left:80px;
+}
+
+.absolute{
+	border: 1px solid red;
+	position: absolute;
+	top: 80px;
+	right: 20px;
+}
+
+.fixed{
+	border: 1px solid red;
+	position: fixed;
+	background: orange;
+	top: 80px;
+	left:80px;
+
+}
+

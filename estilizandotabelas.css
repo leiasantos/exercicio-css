@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+	font-family: 'Inter', sans-serif;
+}
+
+table{
+	width: 600px;
+	border-collapse: collapse;	
+	margin: 12px;
+}
+
+.tabela2{
+	border-collapse: separate;
+	
+}
+
+tr, th{
+  padding: 7px;
+}
+
+th{
+	text-transform: uppercase;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #111;
+	text-align: left;
+	font-size: 90%;
+	letter-spacing: 0.1em;
+}
+
+.preco{
+	text-align:right ;
+}
+
+tr:hover{
+	background: #EB1D36;
+}

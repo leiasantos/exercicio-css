@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+	font-family: 'Inter', sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+body{
+	background: #f2f2f2;
+}
+
+#container{
+	width: 720px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+#marca{
+	height: 100px;
+	background: #FA2FB5;
+	text-align: center;
+	line-height: 100px;
+	font-weight: bold;
+}
+
+#conteudo{
+	width: 520px;
+	float: right;
+}
+
+#navegacao{
+	width: 180px;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #7DCE13;
+}
+
+#rodape{
+	clear: both;
+	padding: 5px;
+	background: #5800FF;
+}
+
+
+
+#conteudo-principal{
+	width: 320px;
+	float: left;
+}
+
+#conteudo-secundario{
+	width: 180px;
+	float: right;
+	background: #EF5B0C;
+}
